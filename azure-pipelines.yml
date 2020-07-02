@@ -2,7 +2,7 @@ trigger:
   batch: "true"
   branches:
     include:
-      - dev
+      - devSandbox
       - qa
       - uat
       - master
@@ -11,7 +11,7 @@ pr:
   autoCancel: "false"
   branches:
     include:
-      - dev
+      - devSandbox
       - qa
       - uat
       - master

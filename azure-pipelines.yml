@@ -62,8 +62,8 @@ jobs:
         sfdx force:source:deploy -l RunLocalTests -p ./force-app -u prod -w 10
       displayName: Deploying  Metadata to the Org
 
-- job: devsandbox11Deploy
-  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/devSandbox1'))
+- job: devsandboxDeploy
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/devSandbox'))
   steps:
     - task: UseNode@1
     - bash: 

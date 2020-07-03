@@ -10,7 +10,7 @@ public with sharing class ContactController {
     }
     
     public PageReference save() {
-        insert c;  
+        insert c ;  
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();
         Double totalOpprAmount;

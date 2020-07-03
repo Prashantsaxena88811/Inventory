@@ -4,7 +4,7 @@
     <aura:handler name="init" action="{!c.getContactsList}" value="{!this}" />
     <!-- List of contacts stored in attribute -->
     <aura:attribute name="contactList" type="List" />
-    <!-- New Contact Object -->
+    
     <aura:attribute name="contact" type="Contact"
                     default="{
                              'SObjectType': 'Contact',

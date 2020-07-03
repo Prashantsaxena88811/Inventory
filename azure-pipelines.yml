@@ -63,7 +63,7 @@ jobs:
       displayName: Deploying  Metadata to the Org
 
 - job: devsandboxDeploy
-  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/devSandbox'))
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/devSandbox1'))
   steps:
     - task: UseNode@1
     - bash: 

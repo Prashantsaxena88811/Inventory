@@ -11,7 +11,7 @@ public with sharing class ContactController {
     
     public PageReference save() {
         insert c;  
-        Account account = new Account();
+        Sobject account = new Account();
         account.Name = 'Steve';
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();

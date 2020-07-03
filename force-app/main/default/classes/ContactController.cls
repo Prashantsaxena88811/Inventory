@@ -13,7 +13,7 @@ public with sharing class ContactController {
         insert c;  
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();
-		integer i;
+		integer ii;
         return null;
     }
     

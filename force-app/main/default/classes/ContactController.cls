@@ -15,6 +15,7 @@ public with sharing class ContactController {
         c = new Contact();
         Double totalOpprAmount;
          return null;
+
     }
     
     

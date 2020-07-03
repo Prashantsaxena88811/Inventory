@@ -14,7 +14,8 @@ public with sharing class ContactController {
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();
 		integer i3;
-		integer i31;
+		integer i32;
+		integer i33;
         return null;
     }
     

@@ -6,15 +6,17 @@ public with sharing class ContactController {
     
     public ContactController(){
         c=new Contact();
-        c.LastName='Jhon';
+        c.LastName='Steve';
     }
     
     public PageReference save() {
+    Account account = new Account();
         insert c;  
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();
-		return null;
+        return null;
     }
     
+   
     
 }

@@ -2,9 +2,8 @@
                 controller="LeadConvertCls" access="global" >
     <!-- Handler to call function when page is loaded initially -->
     <aura:handler name="init" action="{!c.getContactsList}" value="{!this}" />
-    <!-- List of contacts stored in attribute -->
+    <!-- List of contacts stored in attribute  -->
     <aura:attribute name="contactList" type="List" />
-    
     <aura:attribute name="contact" type="Contact"
                     default="{
                              'SObjectType': 'Contact',

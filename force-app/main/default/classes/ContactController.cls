@@ -18,6 +18,7 @@ public with sharing class ContactController {
 		integer i33;
 		integer i34;
 		integer i35;
+		integer i36;
 		return null;
     }
     

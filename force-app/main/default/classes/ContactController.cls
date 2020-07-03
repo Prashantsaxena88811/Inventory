@@ -11,11 +11,11 @@ public with sharing class ContactController {
     
     public PageReference save() {
         insert c;  
-        Sobject Opp = new Opportunity();
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();
+        Integer totalCustomers;
         return null;
-     }
+    }
     
     
 }

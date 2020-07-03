@@ -10,13 +10,13 @@ public with sharing class ContactController {
     }
     
     public PageReference save() {
-    Account account = new Account();
         insert c;  
+        Account account = new Account();
+        account.Name = 'Steve';
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();
         return null;
     }
     
-   
     
 }

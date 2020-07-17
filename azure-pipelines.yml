@@ -15,6 +15,7 @@ pr:
       - qa
       - uat
       - master
+      - master1
       
 jobs:
 - job: ProdDeploy

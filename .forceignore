@@ -3,7 +3,7 @@
 #
 
 package.xml
-**ContactController.cls
+**ContactController1.cls
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json

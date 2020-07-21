@@ -31,7 +31,7 @@ jobs:
       displayName: Authorize salesforce org
     - bash: 
         #sfdx force:source:deploy -l RunLocalTests -p ./force-app -u prod -w 10
-        sfdx force:source:deploy -l RunLocalTests -x ./package.xml -u prod -w 10
+        sfdx force:source:deploy -l RunLocalTests -x ./package.xml -u prod -w 10 --json
       displayName: Deploying  Metadata to the Org
 
 - job: devsandboxProdDeploy

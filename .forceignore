@@ -5,7 +5,7 @@
 
 package.xml
 **ContactController.cls
-**Accoun111t
+**/Account
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json

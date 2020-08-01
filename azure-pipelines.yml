@@ -2,18 +2,18 @@ trigger:
   batch: "true"
   branches:
     include:
-      - master
+      - master1
 
 pr:
   autoCancel: "true"
   branches:
     include:
-      - master
+      - master1
       
 jobs:
 - job: ProdDeploy
   displayName: Production Deploy
-  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master1'))
   steps:
     - task: UseNode@1
     - bash: 

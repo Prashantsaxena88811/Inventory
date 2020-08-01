@@ -13,6 +13,7 @@ public with sharing class ContactController {
         insert c ;  
         samepage= [select id,FirstName,LastName,Email,Birthdate from Contact where id=:c.id];
         c = new Contact();
+        Account a = new Account();
         return null;
         
 

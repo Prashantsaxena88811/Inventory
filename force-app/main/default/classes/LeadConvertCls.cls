@@ -27,6 +27,9 @@ public class LeadConvertCls {
         // Adding try catch for exception handling
         try {
             // Inserting the Contact
+            Account a = new Account();
+            a.Name = 'Steve';
+            insert a;
             insert newContact;
             // Setting the success status and message in resultMap
             resultMap.put('status', 'success');

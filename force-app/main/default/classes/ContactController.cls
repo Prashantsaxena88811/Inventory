@@ -6,7 +6,7 @@ public with sharing class ContactController {
     
     public ContactController(){
         c=new Contact();
-        c.LastName='Steve';
+        c.LastName='Stevee';
     }
     
     public PageReference save() {

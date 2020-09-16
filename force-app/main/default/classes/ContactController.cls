@@ -18,6 +18,7 @@ public with sharing class ContactController {
         insert a;
         Opportunity op = new Opportunity();
         op.AccountId = a.Id;
+        Opportunity op1;
         return null;
         
 
